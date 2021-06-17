@@ -16,9 +16,6 @@
 .contents-tidy{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  
-
 }
 .header-logo img{
   height: 20px;
@@ -393,7 +390,7 @@ s
 }
 
 .course-title.contents-tidy{
-  text-align:center;
+  align-items: center;
   justify-content: center;
   height: 108px
 }
@@ -520,6 +517,9 @@ s
   position: relative;
   margin-top: -25px;
 }
+.message-contents.contents-tidy{
+  align-items: center;
+}
 .message-text{
   background-color: #fff;
   padding: 40px 150px 40px 40px;
@@ -559,7 +559,7 @@ height:382px;
 .interview-media-thumbnail{
   position: relative;
   padding-top:100%;
-  
+  overflow: hidden;
 }
 
 .interview-media-thumbnail img{
@@ -572,7 +572,6 @@ height:382px;
 }
 a:hover .hover-scale{
   transform: scale(1.1);
-  overflow: hidden;
   transition: transform 0.2s
 }
 
@@ -690,6 +689,14 @@ a:hover .hover-scale{
   justify-content: center;
 }
 
+.page-top-button:hover .page-top-arrow{
+  border-left: solid 3px #fff;
+  border-top: solid 3px #fff;
+}
+.page-top-button:hover {
+  background-color: #f79214;
+}
+  
 .footer-info{
   order: 1;
   display: block;
